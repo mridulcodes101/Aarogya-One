@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  /* Design Tokens - Core Colors */
+  --color-bg-hex: #F8F4EC;
+  --color-primary-hex: #0E3B2E;
+  --color-secondary-hex: #127C72;
+  --color-accent-hex: #D8A24A;
+  --color-text-hex: #191919;
+}
+
+@theme {
+  /* Font Family Overrides */
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
+
+  /* Colors mapped to the Design System */
+  --color-background: var(--color-bg-hex);
+  --color-foreground: var(--color-text-hex);
+  --color-primary: var(--color-primary-hex);
+  --color-secondary: var(--color-secondary-hex);
+  --color-accent: var(--color-accent-hex);
+  --color-text: var(--color-text-hex);
+
+  /* Spacing Scale (Custom responsive additions) */
+  --spacing-gutter: clamp(1rem, 4vw, 2rem);
+  --spacing-gutter-sm: clamp(0.75rem, 2vw, 1rem);
+  --spacing-gutter-lg: clamp(1.5rem, 6vw, 3.5rem);
+  --spacing-section: clamp(3rem, 8vw, 6rem);
+  --spacing-section-sm: clamp(2rem, 5vw, 4rem);
+  --spacing-section-lg: clamp(4.5rem, 12vw, 9rem);
+
+  /* Border Radius Scale overrides & additions */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2.25rem;
+  --radius-card: 1.5rem;
+  --radius-button: 0.5rem;
+
+  /* Premium Shadow Scale overrides & additions */
+  --shadow-flat: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 8px rgba(14, 59, 46, 0.04), 0 1px 3px rgba(14, 59, 46, 0.02);
+  --shadow-md: 0 12px 24px rgba(14, 59, 46, 0.06), 0 4px 12px rgba(14, 59, 46, 0.03);
+  --shadow-lg: 0 24px 48px rgba(14, 59, 46, 0.08), 0 8px 24px rgba(14, 59, 46, 0.04);
+  --shadow-xl: 0 40px 80px rgba(14, 59, 46, 0.12), 0 16px 48px rgba(14, 59, 46, 0.06);
+  --shadow-glow: 0 0 24px rgba(216, 162, 74, 0.12);
+
+  /* Typography Scale Additions (Fluid Typography) */
+  --text-display-2xl: clamp(2.5rem, 8vw, 5rem);
+  --text-display-xl: clamp(2.25rem, 7vw, 4rem);
+  --text-display-lg: clamp(2rem, 6vw, 3.25rem);
+  --text-display-md: clamp(1.75rem, 5vw, 2.5rem);
+  --text-display-sm: clamp(1.5rem, 4vw, 2rem);
+  --text-h1: clamp(1.5rem, 3.5vw, 2.25rem);
+  --text-h2: clamp(1.35rem, 3vw, 1.875rem);
+  --text-h3: clamp(1.2rem, 2.5vw, 1.5rem);
+  --text-h4: clamp(1.1rem, 2vw, 1.25rem);
+  --text-h5: clamp(1rem, 1.5vw, 1.125rem);
+  --text-h6: 1rem;
+  --text-body-lg: clamp(1rem, 1.5vw, 1.125rem);
+  --text-body-md: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-caption: 0.75rem;
+}
+
+/* Base resets and defaults */
+html {
+  background-color: var(--color-bg-hex);
+  color: var(--color-text-hex);
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: var(--color-bg-hex);
+  color: var(--color-text-hex);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base typographic styling */
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
