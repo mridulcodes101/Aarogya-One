@@ -92,12 +92,12 @@ export default function Navbar() {
         {/* Desktop CTA / Contacts */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="tel:+917470655352"
+            href="tel:+918109573183"
             className="flex items-center gap-2 font-sans text-body-sm font-semibold text-primary hover:text-accent transition-colors"
-            aria-label="Call Aarogya One at +91 74706 55352"
+            aria-label="Call Aarogya One at +91 81095 73183"
           >
             <Phone className="h-4 w-4" />
-            <span className="hidden lg:inline">+91 74706 55352</span>
+            <span className="hidden lg:inline">+91 81095 73183</span>
           </a>
           <Link
             href="/appointments"
@@ -110,7 +110,7 @@ export default function Navbar() {
         {/* Mobile Controls */}
         <div className="flex items-center gap-4 md:hidden">
           <a
-            href="tel:+917470655352"
+            href="tel:+918109573183"
             className="p-3 text-primary hover:text-accent transition-colors"
             aria-label="Call Aarogya One"
           >
@@ -164,12 +164,12 @@ export default function Navbar() {
 
             <div className="flex flex-col gap-4 mt-auto mb-12">
               <a
-                href="tel:+917470655352"
+                href="tel:+918109573183"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex items-center justify-center gap-2 h-12 w-full rounded-button border border-primary/20 font-sans text-body-md font-medium text-primary hover:bg-primary/5 transition-all"
               >
                 <Phone className="h-5 w-5" />
-                Call +91 74706 55352
+                Call +91 81095 73183
               </a>
               <Link
                 href="/appointments"

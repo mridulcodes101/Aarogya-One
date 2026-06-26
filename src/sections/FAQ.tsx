@@ -7,7 +7,7 @@ import { Section } from "@/components/ui/Section";
 const faqs = [
   {
     q: "How do I book an appointment?",
-    a: "You can book an appointment online using our booking portal, or call us directly at +91 74706 55352. Our support staff will help you secure a time slot with the appropriate specialist.",
+    a: "You can book an appointment online using our booking portal, or call us directly at +91 81095 73183. Our support staff will help you secure a time slot with the appropriate specialist.",
   },
   {
     q: "What insurance providers do you accept?",

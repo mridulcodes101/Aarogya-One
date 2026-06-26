@@ -44,21 +44,21 @@ export default function ContactPage() {
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-accent shrink-0" aria-hidden="true" />
                     <a
-                      href="tel:+917470655352"
+                      href="tel:+918109573183"
                       className="font-sans text-body-sm text-primary hover:text-accent transition-colors"
-                      aria-label="Call Aarogya One at +91 74706 55352"
+                      aria-label="Call Aarogya One at +91 81095 73183"
                     >
-                      +91 74706 55352
+                      +91 81095 73183
                     </a>
                   </div>
                   <div className="flex items-center gap-3 border-b border-primary/5 pb-6">
                     <Mail className="h-5 w-5 text-accent shrink-0" aria-hidden="true" />
                     <a
-                      href="mailto:mustu.malak53@gmail.com"
+                      href="mailto:oneaarogya@gmail.com"
                       className="font-sans text-body-sm text-primary hover:text-accent transition-colors"
-                      aria-label="Email Aarogya One at mustu.malak53@gmail.com"
+                      aria-label="Email Aarogya One at oneaarogya@gmail.com"
                     >
-                      mustu.malak53@gmail.com
+                      oneaarogya@gmail.com
                     </a>
                   </div>
                 </address>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-3">
                   <span className="font-sans text-[10px] text-text/50 uppercase font-semibold">Immediate Assistance</span>
                   <a
-                    href="https://wa.me/917470655352?text=Hi%20there,%20I'd%20like%20to%20inquire%20about%20a%20clinical%20consultation."
+                    href="https://wa.me/918109573183?text=Hi%20there,%20I'd%20like%20to%20inquire%20about%20a%20clinical%20consultation."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex h-11 items-center justify-center gap-2 rounded-button bg-[#25D366] hover:bg-[#20ba5a] text-[#F8F4EC] font-sans text-body-sm font-semibold transition-all shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#25D366] active:scale-[0.98] w-full"

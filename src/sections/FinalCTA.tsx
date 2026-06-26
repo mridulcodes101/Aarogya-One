@@ -62,10 +62,10 @@ export default function FinalCTA() {
               Book Appointment
             </Link>
             <a
-              href="tel:+917470655352"
+              href="tel:+918109573183"
               className="inline-flex h-12 items-center justify-center rounded-button border border-background/25 bg-transparent px-8 font-sans text-body-md font-semibold text-background hover:bg-background/5 transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-background active:scale-[0.98]"
             >
-              Call +91 74706 55352
+              Call +91 81095 73183
             </a>
           </motion.div>
         </motion.div>

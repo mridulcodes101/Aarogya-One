@@ -35,7 +35,7 @@ export default function Footer() {
 
           {/* Item 2: Phone */}
           <a 
-            href="tel:+917470655352" 
+            href="tel:+918109573183" 
             className="flex gap-4 p-6 rounded-xl bg-background/5 border border-background/5 hover:bg-background/[0.08] hover:border-background/10 transition-all duration-300 group"
           >
             <div className="h-10 w-10 rounded-lg bg-accent/10 flex items-center justify-center text-accent shrink-0 group-hover:scale-110 transition-transform duration-300">
@@ -43,13 +43,13 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-1">
               <span className="font-sans text-[10px] uppercase tracking-wider text-accent font-semibold">Call Hotline</span>
-              <span className="font-sans text-body-sm text-background/80 hover:text-accent transition-colors">+91 74706 55352</span>
+              <span className="font-sans text-body-sm text-background/80 hover:text-accent transition-colors">+91 81095 73183</span>
             </div>
           </a>
 
           {/* Item 3: Email */}
           <a 
-            href="mailto:mustu.malak53@gmail.com" 
+            href="mailto:oneaarogya@gmail.com" 
             className="flex gap-4 p-6 rounded-xl bg-background/5 border border-background/5 hover:bg-background/[0.08] hover:border-background/10 transition-all duration-300 group animate-none"
           >
             <div className="h-10 w-10 rounded-lg bg-accent/10 flex items-center justify-center text-accent shrink-0 group-hover:scale-110 transition-transform duration-300">
@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-1">
               <span className="font-sans text-[10px] uppercase tracking-wider text-accent font-semibold">Write Email</span>
-              <span className="font-sans text-body-sm text-background/80 hover:text-accent transition-colors break-all">mustu.malak53@gmail.com</span>
+              <span className="font-sans text-body-sm text-background/80 hover:text-accent transition-colors break-all">oneaarogya@gmail.com</span>
             </div>
           </a>
 

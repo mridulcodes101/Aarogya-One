@@ -56,7 +56,7 @@ const jsonLd = {
   "image": "https://aarogyaone.com/luxury_clinic_lobby.png",
   "@id": "https://aarogyaone.com/#aarogyaone",
   "url": "https://aarogyaone.com",
-  "telephone": "+91-74706-55352",
+  "telephone": "+91-81095-73183",
   "priceRange": "$$$",
   "address": {
     "@type": "PostalAddress",
